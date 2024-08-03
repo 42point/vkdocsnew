@@ -20,12 +20,12 @@ hero:
     src: "vkursik.png"
     alt: VKURSE
 features:
-  - title: Совещания
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Обучения
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Конференции
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Устраивайте совещания
+    details: 300+ видео на одном экране, виртуальные переговорные 24/7 и встроенный мессенджер (звонки, чаты, файлообмен, групповые/1х1).
+  - title: Организуйте обучение
+    details: Групповые конференции, Опросы, Файловое хранилище, мгновенная запись с опцией автозапуска, белая доска
+  - title: Проводите конференции
+    details: До 10 000 участников, Посадочная страница, Конструктор форм регистрации, Валидация зарегистрированных участников мероприятия, комната ожидания.
 ---
 
 <style>

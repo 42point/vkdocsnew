@@ -1,8 +1,10 @@
 ---
-title: Docs with VitePress
+title: Приложение ВКУРСЕ для iOS
 editLink: true
 outline: deep
 ---
+
+# Приложение ВКУРСЕ для iOS
 
 ## Переписка в чате
 

@@ -2,24 +2,33 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "vkurse help docs",
-  description: "knowledge base",
+  srcDir: "./docs", // папка с файлами
+  // lang: "ru-RU",
+  // locales: {
+  //   root: {
+  //     label: "Russian",
+  //     lang: "ru",
+  //   },
+  // },
+  title: "База знаний",
+  description: "Помощь и поддежка vkurse.ru",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: { src: "/logo.svg", width: 24, height: 24 },
     search: {
       provider: "local",
     },
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "ВКУРСЕ", link: "https://vkurse.ru" },
+      { text: "Помощь", link: "faq/index.md" },
     ],
 
     sidebar: [
       {
         text: "Вебинары",
-        collapsed: true,
+        collapsed: false,
         items: [
-          { text: "Подготовка к Вебинару", link: "vebinar/" },
+          { text: "Подготовка к Вебинару", link: "vebinar" },
           { text: "Настройки Вебинара", link: "vebinar/nastroiki-vebinara" },
           {
             text: "Вещание во время Вебинара",
@@ -33,7 +42,7 @@ export default defineConfig({
       },
       {
         text: "Встречи",
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: "Подготовка к встрече", link: "meetings/index.md" },
           { text: "Настройки встречи", link: "meetings/nastroiki-vstreci.md" },
@@ -49,7 +58,7 @@ export default defineConfig({
       },
       {
         text: "Мобильные приложения",
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: "Для iOS", link: "meetings/index.md" },
           {
@@ -62,10 +71,30 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "Релизы",
+        collapsed: true,
+        items: [
+          {
+            text: "Релиз 20",
+            link: "relizy-po-vkurse/versiia-20",
+          },
+        ],
+      },
+      {
+        text: "Помощь",
+        collapsed: true,
+        items: [
+          {
+            text: "Часто задаваемые вопросы (мероприятия)",
+            link: "faq/index.md",
+          },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      // { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
   },
 });

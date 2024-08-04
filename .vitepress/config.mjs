@@ -5,6 +5,7 @@ export default defineConfig({
   srcDir: "./docs", // папка с файлами
   outDir: "./dist", // папув аутпута
   assetsDir: "static",
+  ignoreDeadLinks: true,
   // lang: "ru-RU",
   // locales: {
   //   root: {
@@ -98,14 +99,14 @@ export default defineConfig({
         text: "Мобильные приложения",
         collapsed: true,
         items: [
-          { text: "Для iOS", link: "meetings/index.md" },
+          { text: "Для iOS", link: "/apps/iOS" },
           {
             text: "Для Android",
-            link: "meetings/veshhanie-vo-vremia-vstreci.md",
+            link: "/apps/android/",
           },
           {
             text: "Как поставить",
-            link: "meetings/nastroika-oborudovaniia-Mgz.md",
+            link: "/ustanovka-prilozenii/",
           },
         ],
       },
@@ -123,6 +124,15 @@ export default defineConfig({
               {
                 text: "Релиз 20.1",
                 link: "/release/relizy-po-vkurse-versiia-20-1",
+              },
+            ],
+          },
+          {
+            text: "Релиз 19",
+            items: [
+              {
+                text: "Релиз 19",
+                link: "/release/relizy-po-vkurse-versiia-19",
               },
             ],
           },

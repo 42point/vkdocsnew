@@ -20,45 +20,69 @@ export default defineConfig({
     },
     nav: [
       { text: "ВКУРСЕ", link: "https://vkurse.ru" },
-      { text: "Помощь", link: "faq/index.md" },
+      // { text: "Помощь", link: "faq/index.md" },
     ],
 
     sidebar: [
       {
         text: "Вебинары",
-        collapsed: false,
+        base: "/vebinar-",
+        collapsed: true,
         items: [
-          { text: "Подготовка к Вебинару", link: "vebinar" },
-          { text: "Настройки Вебинара", link: "vebinar/nastroiki-vebinara" },
+          { text: "Подготовка к Вебинару", link: "prepare" },
+          { text: "Настройки Вебинара", link: "nastroiki-vebinara" },
           {
             text: "Вещание во время Вебинара",
-            link: "vebinar/veshhanie-vo-vremia-vebinara",
+            link: "veshhanie-vo-vremia-vebinara",
           },
           {
             text: "Настройка оборудования",
-            link: "vebinar/nastroika-oborudovaniia",
+            link: "nastroika-oborudovaniia",
           },
         ],
       },
       {
         text: "Встречи",
-        collapsed: false,
+        base: "/meetings-",
+        collapsed: true,
         items: [
-          { text: "Подготовка к встрече", link: "meetings/index.md" },
-          { text: "Настройки встречи", link: "meetings/nastroiki-vstreci.md" },
+          { text: "Подготовка к встрече", link: "prepare" },
+          { text: "Настройки встречи", link: "nastroiki-vstreci" },
           {
             text: "Вещание во время Встречи",
-            link: "meetings/veshhanie-vo-vremia-vstreci.md",
+            link: "veshhanie-vo-vremia-vstreci",
           },
           {
             text: "Настройка оборудования",
-            link: "meetings/nastroika-oborudovaniia-Mgz.md",
+            link: "nastroika-oborudovaniia-Mgz",
           },
         ],
       },
       {
+        text: "Лекции",
+        base: "/lekcii-",
+        collapsed: true,
+        items: [
+          { text: "Подготовка к лекции", link: "prepare" },
+          { text: "Настройки", link: "nastroiki-vstreci" },
+          { text: "Вещание во время Лекции", link: "nastroiki-vstreci" },
+          { text: "Настройка оборудования.", link: "nastroiki-vstreci" },
+        ],
+      },
+      {
+        text: "Селектор",
+        base: "/selektor-",
+        collapsed: true,
+        items: [
+          { text: "Подготовка к лекции", link: "prepare" },
+          { text: "Настройки", link: "nastroiki-vstreci" },
+          { text: "Настройки", link: "nastroiki-vstreci" },
+          { text: "Настройки", link: "nastroiki-vstreci" },
+        ],
+      },
+      {
         text: "Мобильные приложения",
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: "Для iOS", link: "meetings/index.md" },
           {

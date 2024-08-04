@@ -12,7 +12,7 @@ hero:
       link: /meetings/
     - theme: alt
       text: Вебинары
-      link: /vebinar/
+      link: vebinar-prepare
     - theme: alt
       text: Мобильные приложения
       link: /apps/iOS/

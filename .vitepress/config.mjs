@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   srcDir: "./docs", // папка с файлами
   outDir: "./dist", // папув аутпута
+  assetsDir: "static",
   // lang: "ru-RU",
   // locales: {
   //   root: {
@@ -13,12 +14,24 @@ export default defineConfig({
   // },
   title: "База знаний",
   description: "Помощь и поддежка vkurse.ru",
+  // lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    // lastUpdated: true,
+
     logo: { src: "/logo.svg", width: 24, height: 24 },
     search: {
       provider: "local",
     },
+    docFooter: {
+      prev: "Предыдущая страница",
+      next: "Следующая страница",
+    },
+    outline: { label: "Содержание страницы" },
+    // lastUpdated: {
+    //   text: "Обновлено",
+    // },
+
     nav: [
       { text: "ВКУРСЕ", link: "https://vkurse.ru" },
       // { text: "Помощь", link: "faq/index.md" },
@@ -27,7 +40,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Вебинары",
-        base: "/vebinar-",
+        base: "/vebinar/vebinar-",
         collapsed: true,
         items: [
           { text: "Подготовка к Вебинару", link: "prepare" },
@@ -44,7 +57,7 @@ export default defineConfig({
       },
       {
         text: "Встречи",
-        base: "/meetings-",
+        base: "/vstrechi/vstrechi-",
         collapsed: true,
         items: [
           { text: "Подготовка к встрече", link: "prepare" },
@@ -61,7 +74,7 @@ export default defineConfig({
       },
       {
         text: "Лекции",
-        base: "/lekcii-",
+        base: "/leckii/lekcii-",
         collapsed: true,
         items: [
           { text: "Подготовка к лекции", link: "prepare" },
@@ -102,7 +115,16 @@ export default defineConfig({
         items: [
           {
             text: "Релиз 20",
-            link: "relizy-po-vkurse/versiia-20",
+            items: [
+              {
+                text: "Релиз 20",
+                link: "/release/relizy-po-vkurse-versiia-20",
+              },
+              {
+                text: "Релиз 20.1",
+                link: "/release/relizy-po-vkurse-versiia-20-1",
+              },
+            ],
           },
         ],
       },

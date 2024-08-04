@@ -5,17 +5,23 @@ layout: home
 hero:
   name: "ВКУРСЕ"
   text: "Платформа для онлайн мероприятий"
-  tagline: База знаний
+  tagline: База знаний, инструкции и помощь
   actions:
     - theme: brand
       text: Встречи
-      link: /meetings/
+      link: /vstrechi/vstrechi-prepare
     - theme: alt
       text: Вебинары
-      link: vebinar-prepare
+      link: /vebinar/vebinar-prepare
     - theme: alt
-      text: Мобильные приложения
+      text: Лекции
+      link: /leckii/lekcii-prepare
+    - theme: alt
+      text: Для мобильных
       link: /apps/iOS/
+    - theme: alt
+      text: Последние обновления
+      link: /release/relizy-po-vkurse-versiia-20
   image:
     src: "vkursik.png"
     alt: VKURSE

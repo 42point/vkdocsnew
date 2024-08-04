@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "./docs", // папка с файлами
+  outDir: "./dist", // папув аутпута
   // lang: "ru-RU",
   // locales: {
   //   root: {
@@ -111,7 +112,7 @@ export default defineConfig({
         items: [
           {
             text: "Часто задаваемые вопросы (мероприятия)",
-            link: "faq/index.md",
+            link: "help-faq",
           },
         ],
       },

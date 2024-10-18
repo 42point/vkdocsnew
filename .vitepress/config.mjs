@@ -11,13 +11,13 @@ export default defineConfig({
   outDir: "./dist", // папув аутпута
   assetsDir: "static",
   ignoreDeadLinks: true,
-  // lang: "ru-RU",
-  // locales: {
-  //   root: {
-  //     label: "Russian",
-  //     lang: "ru",
-  //   },
-  // },
+  lang: "ru-RU",
+  locales: {
+    root: {
+      label: "Russian",
+      lang: "ru",
+    },
+  },
   title: "База знаний",
   head: [
     [
@@ -45,11 +45,43 @@ export default defineConfig({
   // lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // lastUpdated: true,
+    lastUpdated: true,
+    footer: {
+      // message: "Released under the MIT License.",
+      copyright: "АО ВКУРСЕ © 2024",
+    },
 
     logo: { src: "/logo.svg", width: 24, height: 24 },
     search: {
       provider: "local",
+      options: {
+        locales: {
+          root: {
+            // используйте ключ `root`, если хотите перевести локаль по умолчанию
+            translations: {
+              button: {
+                buttonText: "Поиск",
+                buttonAriaLabel: "Поиск",
+              },
+              modal: {
+                displayDetails: "Отобразить подробный список",
+                resetButtonTitle: "Сбросить поиск",
+                backButtonTitle: "Закрыть поиск",
+                noResultsText: "Нет результатов по запросу",
+                footer: {
+                  selectText: "выбрать",
+                  selectKeyAriaLabel: "выбрать",
+                  navigateText: "перейти",
+                  navigateUpKeyAriaLabel: "стрелка вверх",
+                  navigateDownKeyAriaLabel: "стрелка вниз",
+                  closeText: "закрыть",
+                  closeKeyAriaLabel: "esc",
+                },
+              },
+            },
+          },
+        },
+      },
     },
     docFooter: {
       prev: "Предыдущая страница",

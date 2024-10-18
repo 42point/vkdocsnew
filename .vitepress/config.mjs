@@ -29,7 +29,7 @@ export default defineConfig({
       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-      ym(97994354, "init", {
+      ym(93965891, "init", {
            clickmap:true,
            trackLinks:true,
            accurateTrackBounce:true
@@ -38,7 +38,7 @@ export default defineConfig({
     [
       "noscript",
       {},
-      `<div><img src="https://mc.yandex.ru/watch/97994354" style="position:absolute; left:-9999px;" alt="" /></div>`,
+      `<div><img src="https://mc.yandex.ru/watch/93965891" style="position:absolute; left:-9999px;" alt="" /></div>`,
     ],
   ],
   description: "Помощь и поддежка vkurse.ru",

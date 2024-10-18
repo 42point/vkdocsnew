@@ -17,7 +17,7 @@ hero:
     #   text: Лекции
     #   link: /leckii/lekcii-prepare
     - theme: alt
-      text: Для мобильных
+      text: Длямобильных
       link: /apps/ios/
     - theme: alt
       text: Релизы

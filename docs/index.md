@@ -20,7 +20,7 @@ hero:
     #   text: Для мобильных
     #   link: /apps/ios/
     - theme: alt
-      text: Новости и Релизы
+      text: Новости
       link: /news/news-09-2024
   image:
     src: "vkursik.png"

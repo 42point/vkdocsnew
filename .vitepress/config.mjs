@@ -62,6 +62,26 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "Начало работы",
+        base: "/start/start-",
+        collapsed: true,
+        items: [
+          { text: "Как подключиться", link: "how-to" },
+          {
+            text: "Пробный период",
+            link: "kak-effektivno-ispolzovat-probnyi-period-dlia-kommerceskogo-tarifa",
+          },
+          {
+            text: "Приложение для ПК",
+            link: "kak-skacat-prilozenie-dlia-pc-na-windows",
+          },
+          {
+            text: "Приложение для Macos",
+            link: "kak-ustanovit-prilozenie-na-macos",
+          },
+        ],
+      },
+      {
         text: "Вебинары",
         base: "/vebinar/vebinar-",
         collapsed: true,

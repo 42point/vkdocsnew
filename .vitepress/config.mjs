@@ -183,10 +183,22 @@ export default defineConfig({
               },
             ],
           },
-          { text: "Настройки встречи", link: "nastroiki-vstreci" },
           {
-            text: "Вещание во время Встречи",
-            link: "veshhanie-vo-vremia-vstreci",
+            text: "Возможности при проведении встреч",
+            items: [
+              {
+                text: "WEB-клиент",
+                link: "vozmojhnosti-web",
+              },
+              {
+                text: "Десктоп-клиент",
+                link: "vozmojhnosti-desktop",
+              },
+              {
+                text: "Основные-возможности",
+                link: "vozmojhnosti-osnovnii",
+              },
+            ],
           },
           {
             text: "Настройка оборудования",

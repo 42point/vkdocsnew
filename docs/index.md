@@ -12,10 +12,13 @@ hero:
       link: /vstrechi/vstrechi-prepare-web
     - theme: alt
       text: Вебинары
-      link: /vebinar/vebinar-prepare
+      link: /vebinar/vebinar-prepare-web
     - theme: alt
       text: Лекции
-      link: /leckii/lekcii-prepare
+      link: /leckii/lekcii-prepare-web
+    - theme: alt
+      text: Новости
+      link: /news/news-09-2024
   image:
     src: "vkursik.png"
     alt: VKURSE

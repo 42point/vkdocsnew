@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Встречи
-      link: /vstrechi/vstrechi-prepare
+      link: /vstrechi/vstrechi-prepare-web
     - theme: alt
       text: Вебинары
-      link: /vebinar/vebinar-prepare
+      link: /vebinar/vebinar-prepare-web
     # - theme: alt
     #   text: Лекции
     #   link: /leckii/lekcii-prepare
@@ -20,8 +20,8 @@ hero:
       text: Для мобильных
       link: /apps/ios/
     - theme: alt
-      text: Релизы
-      link: /release/relizy-po-vkurse-versiia-20
+      text: Новости и Релизы
+      link: /news/news-09-2024
   image:
     src: "vkursik.png"
     alt: VKURSE

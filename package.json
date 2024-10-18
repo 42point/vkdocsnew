@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "fs": "^0.0.1-security",
+    "markdown-it-image-figures": "^2.1.1",
     "path": "^0.12.7"
   }
 }

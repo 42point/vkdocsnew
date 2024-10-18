@@ -3,6 +3,8 @@ import { defineConfig } from "vitepress";
 // Import lightbox plugin
 import lightbox from "vitepress-plugin-lightbox";
 
+import imageFigures from "markdown-it-image-figures";
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "./docs", // папка с файлами
@@ -136,7 +138,19 @@ export default defineConfig({
         base: "/vstrechi/vstrechi-",
         collapsed: true,
         items: [
-          { text: "Подготовка к встрече", link: "prepare" },
+          {
+            text: "Подготовка к встрече",
+            items: [
+              {
+                text: "WEB-клиент",
+                link: "prepare-web",
+              },
+              {
+                text: "Десктоп клиент",
+                link: "prepare-desktop",
+              },
+            ],
+          },
           { text: "Настройки встречи", link: "nastroiki-vstreci" },
           {
             text: "Вещание во время Встречи",
@@ -190,6 +204,15 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
+            text: "Релиз 21",
+            items: [
+              {
+                text: "Релиз 21.0",
+                link: "/release/relizy-po-vkurse-versiia-21",
+              },
+            ],
+          },
+          {
             text: "Релиз 20",
             items: [
               {
@@ -238,6 +261,10 @@ export default defineConfig({
     config: (md) => {
       // Use lightbox plugin
       md.use(lightbox, {});
+      md.use(imageFigures, {
+        figcaption: "title",
+        copyAttrs: "^class$",
+      });
     },
   },
 });

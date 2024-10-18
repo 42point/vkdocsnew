@@ -11,13 +11,13 @@ export default defineConfig({
   outDir: "./dist", // папув аутпута
   assetsDir: "static",
   ignoreDeadLinks: true,
-  lang: "ru-RU",
-  locales: {
-    root: {
-      label: "Russian",
-      lang: "ru",
-    },
-  },
+  // lang: "ru-RU",
+  // locales: {
+  //   root: {
+  //     label: "Russian",
+  //     lang: "ru",
+  //   },
+  // },
   title: "База знаний",
   head: [
     [

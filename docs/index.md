@@ -16,12 +16,6 @@ hero:
     - theme: alt
       text: Лекции
       link: /leckii/lekcii-prepare
-    - theme: alt
-      text: Для мобильных
-      link: /apps/ios/
-    - theme: alt
-      text: Последние обновления
-      link: /release/relizy-po-vkurse-versiia-20
   image:
     src: "vkursik.png"
     alt: VKURSE

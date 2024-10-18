@@ -1,5 +1,8 @@
 import { defineConfig } from "vitepress";
 
+// Import lightbox plugin
+import lightbox from "vitepress-plugin-lightbox";
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "./docs", // папка с файлами
@@ -66,18 +69,17 @@ export default defineConfig({
         base: "/start/start-",
         collapsed: true,
         items: [
-          { text: "Как подключиться", link: "how-to" },
+          {
+            text: "Как подключиться",
+            link: "kak-podkliucitsia-k-platforme-vkurse",
+          },
           {
             text: "Пробный период",
             link: "kak-effektivno-ispolzovat-probnyi-period-dlia-kommerceskogo-tarifa",
           },
           {
-            text: "Приложение для ПК",
-            link: "kak-skacat-prilozenie-dlia-pc-na-windows",
-          },
-          {
-            text: "Приложение для Macos",
-            link: "kak-ustanovit-prilozenie-na-macos",
+            text: "Приложения ВКУРСЕ",
+            link: "ustanovka-prilojhenii",
           },
         ],
       },
@@ -86,16 +88,47 @@ export default defineConfig({
         base: "/vebinar/vebinar-",
         collapsed: true,
         items: [
-          { text: "Подготовка к Вебинару", link: "prepare" },
-          { text: "Настройки Вебинара", link: "nastroiki-vebinara" },
           {
-            text: "Вещание во время Вебинара",
-            link: "veshhanie-vo-vremia-vebinara",
+            text: "Подготовка к Вебинару",
+            items: [
+              {
+                text: "WEB-клиент в браузер",
+                link: "prepare-web",
+              },
+              {
+                text: "Десктоп-клиент",
+                link: "",
+              },
+            ],
+          },
+
+          {
+            text: "Возможности во время вебинара",
+            items: [
+              {
+                text: "В WEB-клиенте",
+                link: "vozmojhnosti-web",
+              },
+              {
+                text: "Основные",
+                link: "vozmojhnosti-osnovnii",
+              },
+              {
+                text: "Права участников",
+                link: "nabor-prav-ucastnikov-vebinar-perenesti-v-razdel-dlia-organizatorov",
+              },
+            ],
           },
           {
             text: "Настройка оборудования",
-            link: "nastroika-oborudovaniia",
+            items: [
+              {
+                text: "WEB-клиент",
+                link: "kak-nastroit-oborudovanie",
+              },
+            ],
           },
+          { text: "Настройки Вебинара", link: "nastroiki-vebinara" },
         ],
       },
       {
@@ -182,11 +215,16 @@ export default defineConfig({
       },
       {
         text: "Помощь",
+        base: "help/help-",
         collapsed: true,
         items: [
           {
+            text: "Помощь участникам",
+            link: "uchastnikam",
+          },
+          {
             text: "Часто задаваемые вопросы (мероприятия)",
-            link: "help-faq",
+            link: "faq",
           },
         ],
       },
@@ -195,5 +233,11 @@ export default defineConfig({
     socialLinks: [
       // { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
+  },
+  markdown: {
+    config: (md) => {
+      // Use lightbox plugin
+      md.use(lightbox, {});
+    },
   },
 });

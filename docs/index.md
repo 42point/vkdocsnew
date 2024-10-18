@@ -16,9 +16,9 @@ hero:
     # - theme: alt
     #   text: Лекции
     #   link: /leckii/lekcii-prepare
-    - theme: alt
-      text: Для мобильных
-      link: /apps/ios/
+    # - theme: alt
+    #   text: Для мобильных
+    #   link: /apps/ios/
     - theme: alt
       text: Новости и Релизы
       link: /news/news-09-2024

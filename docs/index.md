@@ -12,16 +12,16 @@ hero:
       link: /vstrechi/vstrechi-prepare-web
     - theme: alt
       text: Вебинары
-      link: /vebinar/vebinar-prepare-web
-    # - theme: alt
-    #   text: Лекции
-    #   link: /leckii/lekcii-prepare
-    # - theme: alt
-    #   text: Для мобильных
-    #   link: /apps/ios/
+      link: /vebinar/vebinar-prepare
     - theme: alt
-      text: Новости
-      link: /news/news-09-2024
+      text: Лекции
+      link: /leckii/lekcii-prepare
+    - theme: alt
+      text: Для мобильных
+      link: /apps/ios/
+    - theme: alt
+      text: Последние обновления
+      link: /release/relizy-po-vkurse-versiia-20
   image:
     src: "vkursik.png"
     alt: VKURSE
@@ -38,6 +38,7 @@ features:
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
   --vp-home-hero-image-filter: blur(40px);
 }

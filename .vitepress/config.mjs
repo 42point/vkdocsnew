@@ -46,10 +46,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     lastUpdated: true,
-    // footer: {
-    //   message: "Released under the MIT License.",
-    //   copyright: "АО ВКУРСЕ © 2024",
-    // },
+    footer: {
+      //   message: "Released under the MIT License.",
+      copyright: "АО ВКУРСЕ © 2024",
+    },
 
     logo: { src: "/logo.svg", width: 24, height: 24 },
     search: {
@@ -197,6 +197,10 @@ export default defineConfig({
               {
                 text: "Основные-возможности",
                 link: "vozmojhnosti-osnovnii",
+              },
+              {
+                text: "Права учатников встреч",
+                link: "nabor-prav-ucastnikov-vstreca-perenesti-v-razdel-dlia-organizatorov",
               },
             ],
           },

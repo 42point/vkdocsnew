@@ -272,6 +272,30 @@ export default defineConfig({
                 link: "/release/relizy-po-vkurse-versiia-21-7",
               },
               {
+                text: "Релиз 21.6",
+                link: "/release/relizy-po-vkurse-versiia-21-6",
+              },
+              {
+                text: "Релиз 21.5",
+                link: "/release/relizy-po-vkurse-versiia-21-5",
+              },
+              {
+                text: "Релиз 21.4",
+                link: "/release/relizy-po-vkurse-versiia-21-4",
+              },
+              {
+                text: "Релиз 21.3",
+                link: "/release/relizy-po-vkurse-versiia-21-3",
+              },
+              {
+                text: "Релиз 21.2",
+                link: "/release/relizy-po-vkurse-versiia-21-2",
+              },
+              {
+                text: "Релиз 21.1",
+                link: "/release/relizy-po-vkurse-versiia-21-1",
+              },
+              {
                 text: "Релиз 21.0",
                 link: "/release/relizy-po-vkurse-versiia-21",
               },

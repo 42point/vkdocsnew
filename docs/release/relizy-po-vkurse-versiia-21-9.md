@@ -10,7 +10,7 @@ outline: deep
 
 ### Релиз новых версий клиентских приложений
 
-- Релиз Desktop клиента 20.1
+- <Badge type="tip" text="RELEASE" /> Desktop клиент 20.1
 
 ### Доработки
 

@@ -10,9 +10,9 @@ outline: deep
 
 ### Релиз новых версий клиентских приложений
 
-- Релиз Web клиента 17.5
-- Релиз iOS клиента 17.6
-- Релиз Android клиента 18.6
+- <Badge type="tip" text="RELEASE" /> Web клиент 17.5
+- <Badge type="tip" text="RELEASE" /> iOS клиент 17.6
+- <Badge type="tip" text="RELEASE" /> Android клиент 18.6
 
 ### Доработки
 

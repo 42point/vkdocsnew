@@ -10,8 +10,8 @@ outline: deep
 
 ### Релиз новых версий клиентских приложений
 
-- Релиз iOS клиента 17.5
-- Релиз Outlook Plugin 1.5.6
+- <Badge type="tip" text="RELEASE" /> iOS клиент 17.5
+- <Badge type="tip" text="RELEASE" /> Outlook Plugin 1.5.6
 
 ### Доработки
 

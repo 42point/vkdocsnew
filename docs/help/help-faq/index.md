@@ -45,7 +45,7 @@ e-mail: support@vkurse.ru
 2. Логин
 3. Пароль
 
-![](img/xEhimage.png)
+![](../img/xEhimage.png)
 
 ### Для подключения посредством Desktop (Приложение ПК):
 
@@ -53,7 +53,7 @@ e-mail: support@vkurse.ru
 2. Пароль
 3. Адрес сервера
 
-![](img/JCdimage.png)
+![](../img/JCdimage.png)
 
 ### Для подключения посредством мобильного клиента:
 
@@ -61,7 +61,7 @@ e-mail: support@vkurse.ru
 2. Пароль
 3. Адрес сервера
 
-![](img/69gimage.png)
+![](../img/69gimage.png)
 
 ## Роли участников мероприятий.
 

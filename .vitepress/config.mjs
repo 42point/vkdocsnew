@@ -45,7 +45,16 @@ export default defineConfig({
   // lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    lastUpdated: true,
+    // lastUpdated: true,
+    lastUpdated: {
+      text: "Обновлено",
+      formatOptions: {
+        dateStyle: "short",
+        timeStyle: "short",
+        hourCycle: "h23",
+      },
+    },
+
     footer: {
       //   message: "Released under the MIT License.",
       copyright: "АО ВКУРСЕ © 2024",
@@ -236,7 +245,10 @@ export default defineConfig({
         text: "Мобильные приложения",
         collapsed: true,
         items: [
-          { text: "Для iOS", link: "/apps/iOS" },
+          {
+            text: "Для iOS",
+            link: "/apps/iOS",
+          },
           {
             text: "Для Android",
             link: "/apps/android/",

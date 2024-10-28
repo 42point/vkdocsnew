@@ -15,7 +15,7 @@ hero:
       link: /vebinar/vebinar-prepare-web
     - theme: alt
       text: Лекции
-      link: /leckii/lekcii-prepare-web
+      link: /leckii/prepare-web/
     - theme: alt
       text: Новости
       link: /news/news-09-2024

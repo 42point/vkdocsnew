@@ -109,20 +109,20 @@ export default defineConfig({
     sidebar: [
       {
         text: "Начало работы",
-        base: "/start/start-",
+        base: "/start",
         collapsed: true,
         items: [
           {
             text: "Как подключиться",
-            link: "kak-podkliucitsia-k-platforme-vkurse",
+            link: "/kak-podkliucitsia-k-platforme-vkurse/",
           },
           {
             text: "Пробный период",
-            link: "kak-effektivno-ispolzovat-probnyi-period-dlia-kommerceskogo-tarifa",
+            link: "/kak-effektivno-ispolzovat-probnyi-period-dlia-kommerceskogo-tarifa/",
           },
           {
             text: "Приложения ВКУРСЕ",
-            link: "ustanovka-prilojhenii",
+            link: "/ustanovka-prilojhenii/",
           },
         ],
       },
@@ -221,13 +221,57 @@ export default defineConfig({
       },
       {
         text: "Лекции",
-        base: "/leckii/lekcii-",
+        base: "/leckii",
         collapsed: true,
         items: [
-          { text: "Подготовка к лекции", link: "prepare" },
-          { text: "Настройки", link: "nastroiki-vstreci" },
-          { text: "Вещание во время Лекции", link: "nastroiki-vstreci" },
-          { text: "Настройка оборудования.", link: "nastroiki-vstreci" },
+          {
+            text: "Подготовка к лекции",
+            items: [
+              {
+                text: "WEB-приложение ",
+                link: "/prepare-web/",
+              },
+              {
+                text: "Десктоп-приложение ",
+                link: "/prepare-desktop/",
+              },
+            ],
+          },
+          {
+            text: "Возможности при проведении лекции",
+            items: [
+              {
+                text: "Возможности WEB-клиента",
+                link: "/vozmojhnosti-web/",
+              },
+              {
+                text: "Возможности десктоп-клиента",
+                link: "/vozmojhnosti-desktop/",
+              },
+              {
+                text: "Общие возможности",
+                link: "/vozmozhnosti-obchie/",
+              },
+              {
+                text: "Права участников лекции",
+                link: "/prava-uchastnikov/",
+              },
+            ],
+          },
+
+          {
+            text: "Настройка оборудования",
+            items: [
+              {
+                text: "Настрока WEB-клиента",
+                link: "/nastroiki-vstreci/",
+              },
+              {
+                text: "Настройка десктоп-клиента",
+                link: "/nastroiki-vstreci/",
+              },
+            ],
+          },
         ],
       },
       {

@@ -291,7 +291,7 @@ export default defineConfig({
         items: [
           {
             text: "Для iOS",
-            link: "/apps/iOS",
+            link: "/apps/ios/",
           },
           {
             text: "Для Android",
@@ -299,7 +299,7 @@ export default defineConfig({
           },
           {
             text: "Как поставить",
-            link: "/ustanovka-prilozenii/",
+            link: "/apps/ustanovka-prilozenii/",
           },
         ],
       },
@@ -385,16 +385,25 @@ export default defineConfig({
       },
       {
         text: "Помощь",
-        base: "help/help-",
+        base: "/help",
         collapsed: true,
         items: [
           {
             text: "Помощь участникам",
-            link: "uchastnikam",
+            link: "/uchastnikam/",
           },
           {
             text: "Часто задаваемые вопросы (мероприятия)",
-            link: "faq",
+            link: "/faq/",
+          },
+          {
+            text: "Возможности платформы",
+            items: [
+              {
+                text: "Аналитика по платформе ВКУРСЕ",
+                link: "/vkurse-analitycs/",
+              },
+            ],
           },
         ],
       },

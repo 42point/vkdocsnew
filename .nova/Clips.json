@@ -1,0 +1,9 @@
+{
+  "clips" : [
+    {
+      "content" : "<Badge type=\"tip\" text=\"$0\" \/>",
+      "name" : "badge",
+      "trigger" : ";badge"
+    }
+  ]
+}

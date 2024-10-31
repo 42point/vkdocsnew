@@ -1,9 +1,11 @@
 import { defineConfig } from "vitepress";
-
 // Import lightbox plugin
 import lightbox from "vitepress-plugin-lightbox";
-
 import imageFigures from "markdown-it-image-figures";
+import markdownItMark from "markdown-it-mark";
+import markdownItDeflist from "markdown-it-deflist";
+import markdownItAbbr from "markdown-it-abbr";
+import markdownItFootnote from "markdown-it-footnote";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -276,13 +278,48 @@ export default defineConfig({
       },
       {
         text: "Селектор",
-        base: "/selektor-",
+        base: "/selector/",
+
         collapsed: true,
         items: [
-          { text: "Подготовка к лекции", link: "prepare" },
-          { text: "Настройки", link: "nastroiki-vstreci" },
-          { text: "Настройки", link: "nastroiki-vstreci" },
-          { text: "Настройки", link: "nastroiki-vstreci" },
+          {
+            text: "Подготовка к селектору",
+            items: [
+              {
+                text: "WEB-клиент",
+                link: "podgotovka-k-selektoru-web/",
+              },
+              {
+                text: "Десктоп-клиент",
+                link: "podgotovka-k-selektoru-desktop/",
+              },
+            ],
+          },
+          {
+            text: "Возможности при проведении селектора",
+            items: [
+              {
+                text: "WEB-клиент",
+                link: "/vozmoznosti-selektora-web/",
+              },
+              {
+                text: "Десктоп-клиент",
+                link: "/vozmoznosti-selektora-desktop/",
+              },
+              {
+                text: "Основные-возможности",
+                link: "",
+              },
+              {
+                text: "Права учатников встреч",
+                link: "",
+              },
+            ],
+          },
+          {
+            text: "Настройка оборудования",
+            link: "",
+          },
         ],
       },
       {
@@ -417,10 +454,18 @@ export default defineConfig({
     config: (md) => {
       // Use lightbox plugin
       md.use(lightbox, {});
+      md.use(markdownItFootnote);
+      md.use(markdownItMark);
+      md.use(markdownItDeflist);
+      md.use(markdownItAbbr);
       md.use(imageFigures, {
         figcaption: "title",
         copyAttrs: "^class$",
       });
+    },
+    image: {
+      // image lazy loading is disabled by default
+      lazyLoading: true,
     },
   },
 });

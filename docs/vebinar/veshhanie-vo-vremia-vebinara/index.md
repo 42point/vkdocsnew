@@ -16,7 +16,7 @@
 
  <!-- TODO: сделать скрин с кнопками -->
 
-![](https://help.vkurse.ru/uploads/images/gallery/2024-03/5.png)
+![](../img/5.png)
 
 - Выключить звук
 - Настройки оборудования
@@ -37,11 +37,11 @@
 
  <!-- TODO: исправить блок  -->
 
-![](http://help.vkurse.ru/uploads/images/gallery/2023-05/scaled-1680-/a0simage.png)
+![](../img/a0simage.png)
 
 Рисунок 1- Настройка оборудования
 
-![](http://help.vkurse.ru/uploads/images/gallery/2023-05/scaled-1680-/B0Kimage.png)
+![](../img/B0Kimage.png)
 Рисунок 2- "поднять руку"
 
 С правой стороны блок чата доступен следующий функционал:
@@ -51,14 +51,14 @@
 - Опросы image.png
 - Добавить участника (плюс)
 
-![](http://help.vkurse.ru/uploads/images/gallery/2023-05/scaled-1680-/tk4image.png)
+![](../img/tk4image.png)
 
 Справа визу доступен функционал:
 
 - Чат image.png
 - Участники image.png
 
-![](http://help.vkurse.ru/uploads/images/gallery/2023-05/scaled-1680-/BZVimage.png)
+![](../img/BZVimage.png)
 
 ## Приглашение участников во время мероприятия Вебинар (Браузер)
 

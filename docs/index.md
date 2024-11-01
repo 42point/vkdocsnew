@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Начало работы
-      link: /start/kak-podkliucitsia-k-platforme-vkurse/
+      link: /start/kak-podkliucitsia-k-platforme-vkurse
     - theme: alt
       text: Встречи
       link: /vstrechi/prepare-web
@@ -18,10 +18,10 @@ hero:
       link: /vebinar/prepare-web
     - theme: alt
       text: Лекции
-      link: /leckii/prepare-web/
+      link: /lekcii/prepare-web/
     - theme: alt
       text: Новости и Релизы
-      link: /news/news-09-2024
+      link: /release/relizy-po-vkurse-versiia-21-10
   image:
     src: "vkursik.png"
     alt: VKURSE

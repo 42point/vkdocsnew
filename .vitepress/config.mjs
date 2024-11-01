@@ -223,7 +223,7 @@ export default defineConfig({
       },
       {
         text: "Лекции",
-        base: "/leckii",
+        base: "/lekcii/",
         collapsed: true,
         items: [
           {
@@ -231,11 +231,11 @@ export default defineConfig({
             items: [
               {
                 text: "WEB-приложение ",
-                link: "/prepare-web/",
+                link: "prepare-web/",
               },
               {
                 text: "Десктоп-приложение ",
-                link: "/prepare-desktop/",
+                link: "prepare-desktop/",
               },
             ],
           },
@@ -244,19 +244,19 @@ export default defineConfig({
             items: [
               {
                 text: "Возможности WEB-клиента",
-                link: "/vozmojhnosti-web/",
+                link: "vozmojhnosti-web/",
               },
               {
                 text: "Возможности десктоп-клиента",
-                link: "/vozmojhnosti-desktop/",
+                link: "vozmojhnosti-desktop/ ",
               },
               {
                 text: "Общие возможности",
-                link: "/vozmozhnosti-obchie/",
+                link: "vozmozhnosti-obchie/",
               },
               {
                 text: "Права участников лекции",
-                link: "/prava-uchastnikov/",
+                link: "prava-uchastnikov/",
               },
             ],
           },
@@ -266,11 +266,11 @@ export default defineConfig({
             items: [
               {
                 text: "Настрока WEB-клиента",
-                link: "/nastroiki-vstreci/",
+                link: "/",
               },
               {
                 text: "Настройка десктоп-клиента",
-                link: "/nastroiki-vstreci/",
+                link: "/",
               },
             ],
           },

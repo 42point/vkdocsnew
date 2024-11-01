@@ -130,7 +130,7 @@ export default defineConfig({
       },
       {
         text: "Вебинары",
-        base: "/vebinar/vebinar-",
+        base: "/vebinar/",
         collapsed: true,
         items: [
           {
@@ -138,7 +138,7 @@ export default defineConfig({
             items: [
               {
                 text: "WEB-клиент в браузер",
-                link: "prepare-web",
+                link: "prepare-web/",
               },
               {
                 text: "Десктоп-клиент",
@@ -152,15 +152,15 @@ export default defineConfig({
             items: [
               {
                 text: "В WEB-клиенте",
-                link: "vozmojhnosti-web",
+                link: "vozmojhnosti-web/",
               },
               {
                 text: "Основные",
-                link: "vozmojhnosti-osnovnii",
+                link: "vozmojhnosti-osnovnii/",
               },
               {
                 text: "Права участников",
-                link: "nabor-prav-ucastnikov-vebinar-perenesti-v-razdel-dlia-organizatorov",
+                link: "nabor-prav-ucastnikov-vebinar-perenesti-v-razdel-dlia-organizatorov/",
               },
             ],
           },
@@ -169,16 +169,16 @@ export default defineConfig({
             items: [
               {
                 text: "WEB-клиент",
-                link: "kak-nastroit-oborudovanie",
+                link: "kak-nastroit-oborudovanie/",
               },
             ],
           },
-          { text: "Настройки Вебинара", link: "nastroiki-vebinara" },
+          { text: "Настройки Вебинара", link: "nastroiki-vebinara/" },
         ],
       },
       {
         text: "Встречи",
-        base: "/vstrechi/vstrechi-",
+        base: "/vstrechi/",
         collapsed: true,
         items: [
           {
@@ -186,11 +186,11 @@ export default defineConfig({
             items: [
               {
                 text: "WEB-клиент",
-                link: "prepare-web",
+                link: "prepare-web/",
               },
               {
                 text: "Десктоп клиент",
-                link: "prepare-desktop",
+                link: "prepare-desktop/",
               },
             ],
           },
@@ -199,25 +199,25 @@ export default defineConfig({
             items: [
               {
                 text: "WEB-клиент",
-                link: "vozmojhnosti-web",
+                link: "vozmojhnosti-web/",
               },
               {
                 text: "Десктоп-клиент",
-                link: "vozmojhnosti-desktop",
+                link: "vozmojhnosti-desktop/",
               },
               {
                 text: "Основные-возможности",
-                link: "vozmojhnosti-osnovnii",
+                link: "vozmojhnosti-osnovnii/",
               },
               {
                 text: "Права учатников встреч",
-                link: "nabor-prav-ucastnikov-vstreca-perenesti-v-razdel-dlia-organizatorov",
+                link: "nabor-prav-ucastnikov-vstreca-perenesti-v-razdel-dlia-organizatorov/",
               },
             ],
           },
           {
             text: "Настройка оборудования",
-            link: "nastroika-oborudovaniia-Mgz",
+            link: "nastroika-oborudovaniia-Mgz/",
           },
         ],
       },
@@ -278,7 +278,7 @@ export default defineConfig({
       },
       {
         text: "Селектор",
-        base: "/selector/",
+        base: "/selektor/",
 
         collapsed: true,
         items: [
@@ -300,19 +300,19 @@ export default defineConfig({
             items: [
               {
                 text: "WEB-клиент",
-                link: "/vozmoznosti-selektora-web/",
+                link: "vozmoznosti-selektora-web/",
               },
               {
                 text: "Десктоп-клиент",
-                link: "/vozmoznosti-selektora-desktop/",
+                link: "vozmoznosti-selektora-desktop/",
               },
               {
                 text: "Основные-возможности",
-                link: "",
+                link: "osnovnii-vozmozhnosti/",
               },
               {
-                text: "Права учатников встреч",
-                link: "",
+                text: "Права учатников селектора",
+                link: "prava-uchastnikov-selektora/",
               },
             ],
           },

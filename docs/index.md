@@ -8,16 +8,19 @@ hero:
   tagline: База знаний, инструкции и помощь
   actions:
     - theme: brand
+      text: Начало работы
+      link: /start/kak-podkliucitsia-k-platforme-vkurse/
+    - theme: alt
       text: Встречи
-      link: /vstrechi/vstrechi-prepare-web
+      link: /vstrechi/prepare-web
     - theme: alt
       text: Вебинары
-      link: /vebinar/vebinar-prepare-web
+      link: /vebinar/prepare-web
     - theme: alt
       text: Лекции
       link: /leckii/prepare-web/
     - theme: alt
-      text: Новости
+      text: Новости и Релизы
       link: /news/news-09-2024
   image:
     src: "vkursik.png"

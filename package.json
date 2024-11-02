@@ -10,7 +10,11 @@
   },
   "dependencies": {
     "fs": "^0.0.1-security",
+    "markdown-it-abbr": "^2.0.0",
+    "markdown-it-deflist": "^3.0.0",
+    "markdown-it-footnote": "^4.0.0",
     "markdown-it-image-figures": "^2.1.1",
+    "markdown-it-mark": "^4.0.0",
     "path": "^0.12.7"
   }
 }

@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Подготовка к встрече
 
 <!-- markdownlint-disable MD013 -->

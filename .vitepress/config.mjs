@@ -20,7 +20,7 @@ export default defineConfig({
   //     lang: "ru",
   //   },
   // },
-  title: "База знаний",
+  title: "ВКУРСЕ | База знаний ",
   head: [
     [
       "script",
@@ -43,7 +43,7 @@ export default defineConfig({
       `<div><img src="https://mc.yandex.ru/watch/93965891" style="position:absolute; left:-9999px;" alt="" /></div>`,
     ],
   ],
-  description: "Помощь и поддежка vkurse.ru",
+  description: "База знаний платформы ВКУРСЕ",
   // lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -137,13 +137,13 @@ export default defineConfig({
             text: "Подготовка к Вебинару",
             items: [
               {
-                text: "WEB-клиент в браузер",
+                text: "WEB-клиент в браузере",
                 link: "prepare-web/",
               },
-              {
-                text: "Десктоп-клиент",
-                link: "",
-              },
+              // {
+              //   text: "Десктоп-клиент",
+              //   link: "",
+              // },
             ],
           },
 
@@ -151,7 +151,7 @@ export default defineConfig({
             text: "Возможности во время вебинара",
             items: [
               {
-                text: "В WEB-клиенте",
+                text: "WEB-клиент в браузере",
                 link: "vozmojhnosti-web/",
               },
               {
@@ -168,7 +168,7 @@ export default defineConfig({
             text: "Настройка оборудования",
             items: [
               {
-                text: "WEB-клиент",
+                text: "WEB-клиент в браузере",
                 link: "kak-nastroit-oborudovanie/",
               },
             ],
@@ -215,10 +215,10 @@ export default defineConfig({
               },
             ],
           },
-          {
-            text: "Настройка оборудования",
-            link: "nastroika-oborudovaniia-Mgz/",
-          },
+          // {
+          //   text: "Настройка оборудования",
+          //   link: "nastroika-oborudovaniia-Mgz/",
+          // },
         ],
       },
       {
@@ -248,7 +248,7 @@ export default defineConfig({
               },
               {
                 text: "Возможности десктоп-клиента",
-                link: "vozmojhnosti-desktop/ ",
+                link: "vozmojhnosti-desktop/",
               },
               {
                 text: "Общие возможности",
@@ -261,19 +261,19 @@ export default defineConfig({
             ],
           },
 
-          {
-            text: "Настройка оборудования",
-            items: [
-              {
-                text: "Настрока WEB-клиента",
-                link: "/",
-              },
-              {
-                text: "Настройка десктоп-клиента",
-                link: "/",
-              },
-            ],
-          },
+          // {
+          //   text: "Настройка оборудования",
+          //   items: [
+          //     {
+          //       text: "Настрока WEB-клиента",
+          //       link: "/",
+          //     },
+          //     {
+          //       text: "Настройка десктоп-клиента",
+          //       link: "/",
+          //     },
+          //   ],
+          // },
         ],
       },
       {
@@ -286,7 +286,7 @@ export default defineConfig({
             text: "Подготовка к селектору",
             items: [
               {
-                text: "WEB-клиент",
+                text: "WEB-клиент в браузере",
                 link: "podgotovka-k-selektoru-web/",
               },
               {
@@ -299,7 +299,7 @@ export default defineConfig({
             text: "Возможности при проведении селектора",
             items: [
               {
-                text: "WEB-клиент",
+                text: "WEB-клиент в браузере",
                 link: "vozmoznosti-selektora-web/",
               },
               {
@@ -334,10 +334,10 @@ export default defineConfig({
             text: "Для Android",
             link: "/apps/android/",
           },
-          {
-            text: "Как поставить",
-            link: "/apps/ustanovka-prilozenii/",
-          },
+          // {
+          //   text: "Как поставить",
+          //   link: "/apps/ustanovka-prilozenii/",
+          // },
         ],
       },
       {

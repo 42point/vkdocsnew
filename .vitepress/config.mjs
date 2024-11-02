@@ -341,9 +341,23 @@ export default defineConfig({
         ],
       },
       {
-        text: "Релизы",
+        text: "Новости и Релизы",
         collapsed: true,
         items: [
+          {
+            text: "Новости",
+            collapsed: true,
+            items: [
+              {
+                text: "Новый функционал за Сентябрь",
+                link: "/news/spisok-novogo-funkcionala-09-2024/",
+              },
+              {
+                text: "Новый функционал за Август",
+                link: "/news/spisok-novogo-funkcionala-08-2024/",
+              },
+            ],
+          },
           {
             text: "Релиз 21",
             collapsed: true,
@@ -439,6 +453,10 @@ export default defineConfig({
               {
                 text: "Аналитика по платформе ВКУРСЕ",
                 link: "/vkurse-analitycs/",
+              },
+              {
+                text: "Обзор возможностей платформы",
+                link: "/vozmojnosti-platformy/",
               },
             ],
           },

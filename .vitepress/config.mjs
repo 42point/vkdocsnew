@@ -1,9 +1,11 @@
 import { defineConfig } from "vitepress";
-
 // Import lightbox plugin
 import lightbox from "vitepress-plugin-lightbox";
-
 import imageFigures from "markdown-it-image-figures";
+import markdownItMark from "markdown-it-mark";
+import markdownItDeflist from "markdown-it-deflist";
+import markdownItAbbr from "markdown-it-abbr";
+import markdownItFootnote from "markdown-it-footnote";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -18,7 +20,7 @@ export default defineConfig({
   //     lang: "ru",
   //   },
   // },
-  title: "База знаний",
+  title: "ВКУРСЕ | База знаний ",
   head: [
     [
       "script",
@@ -41,7 +43,7 @@ export default defineConfig({
       `<div><img src="https://mc.yandex.ru/watch/93965891" style="position:absolute; left:-9999px;" alt="" /></div>`,
     ],
   ],
-  description: "Помощь и поддежка vkurse.ru",
+  description: "База знаний платформы ВКУРСЕ",
   // lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -128,20 +130,20 @@ export default defineConfig({
       },
       {
         text: "Вебинары",
-        base: "/vebinar/vebinar-",
+        base: "/vebinar/",
         collapsed: true,
         items: [
           {
             text: "Подготовка к Вебинару",
             items: [
               {
-                text: "WEB-клиент в браузер",
-                link: "prepare-web",
+                text: "WEB-клиент в браузере",
+                link: "prepare-web/",
               },
-              {
-                text: "Десктоп-клиент",
-                link: "",
-              },
+              // {
+              //   text: "Десктоп-клиент",
+              //   link: "",
+              // },
             ],
           },
 
@@ -149,16 +151,16 @@ export default defineConfig({
             text: "Возможности во время вебинара",
             items: [
               {
-                text: "В WEB-клиенте",
-                link: "vozmojhnosti-web",
+                text: "WEB-клиент в браузере",
+                link: "vozmojhnosti-web/",
               },
               {
                 text: "Основные",
-                link: "vozmojhnosti-osnovnii",
+                link: "vozmojhnosti-osnovnii/",
               },
               {
                 text: "Права участников",
-                link: "nabor-prav-ucastnikov-vebinar-perenesti-v-razdel-dlia-organizatorov",
+                link: "nabor-prav-ucastnikov-vebinar-perenesti-v-razdel-dlia-organizatorov/",
               },
             ],
           },
@@ -166,17 +168,17 @@ export default defineConfig({
             text: "Настройка оборудования",
             items: [
               {
-                text: "WEB-клиент",
-                link: "kak-nastroit-oborudovanie",
+                text: "WEB-клиент в браузере",
+                link: "kak-nastroit-oborudovanie/",
               },
             ],
           },
-          { text: "Настройки Вебинара", link: "nastroiki-vebinara" },
+          { text: "Настройки Вебинара", link: "nastroiki-vebinara/" },
         ],
       },
       {
         text: "Встречи",
-        base: "/vstrechi/vstrechi-",
+        base: "/vstrechi/",
         collapsed: true,
         items: [
           {
@@ -184,11 +186,11 @@ export default defineConfig({
             items: [
               {
                 text: "WEB-клиент",
-                link: "prepare-web",
+                link: "prepare-web/",
               },
               {
                 text: "Десктоп клиент",
-                link: "prepare-desktop",
+                link: "prepare-desktop/",
               },
             ],
           },
@@ -197,31 +199,31 @@ export default defineConfig({
             items: [
               {
                 text: "WEB-клиент",
-                link: "vozmojhnosti-web",
+                link: "vozmojhnosti-web/",
               },
               {
                 text: "Десктоп-клиент",
-                link: "vozmojhnosti-desktop",
+                link: "vozmojhnosti-desktop/",
               },
               {
                 text: "Основные-возможности",
-                link: "vozmojhnosti-osnovnii",
+                link: "vozmojhnosti-osnovnii/",
               },
               {
                 text: "Права учатников встреч",
-                link: "nabor-prav-ucastnikov-vstreca-perenesti-v-razdel-dlia-organizatorov",
+                link: "nabor-prav-ucastnikov-vstreca-perenesti-v-razdel-dlia-organizatorov/",
               },
             ],
           },
-          {
-            text: "Настройка оборудования",
-            link: "nastroika-oborudovaniia-Mgz",
-          },
+          // {
+          //   text: "Настройка оборудования",
+          //   link: "nastroika-oborudovaniia-Mgz/",
+          // },
         ],
       },
       {
         text: "Лекции",
-        base: "/leckii",
+        base: "/lekcii/",
         collapsed: true,
         items: [
           {
@@ -229,11 +231,11 @@ export default defineConfig({
             items: [
               {
                 text: "WEB-приложение ",
-                link: "/prepare-web/",
+                link: "prepare-web/",
               },
               {
                 text: "Десктоп-приложение ",
-                link: "/prepare-desktop/",
+                link: "prepare-desktop/",
               },
             ],
           },
@@ -242,47 +244,82 @@ export default defineConfig({
             items: [
               {
                 text: "Возможности WEB-клиента",
-                link: "/vozmojhnosti-web/",
+                link: "vozmojhnosti-web/",
               },
               {
                 text: "Возможности десктоп-клиента",
-                link: "/vozmojhnosti-desktop/",
+                link: "vozmojhnosti-desktop/",
               },
               {
                 text: "Общие возможности",
-                link: "/vozmozhnosti-obchie/",
+                link: "vozmozhnosti-obchie/",
               },
               {
                 text: "Права участников лекции",
-                link: "/prava-uchastnikov/",
+                link: "prava-uchastnikov/",
               },
             ],
           },
 
-          {
-            text: "Настройка оборудования",
-            items: [
-              {
-                text: "Настрока WEB-клиента",
-                link: "/nastroiki-vstreci/",
-              },
-              {
-                text: "Настройка десктоп-клиента",
-                link: "/nastroiki-vstreci/",
-              },
-            ],
-          },
+          // {
+          //   text: "Настройка оборудования",
+          //   items: [
+          //     {
+          //       text: "Настрока WEB-клиента",
+          //       link: "/",
+          //     },
+          //     {
+          //       text: "Настройка десктоп-клиента",
+          //       link: "/",
+          //     },
+          //   ],
+          // },
         ],
       },
       {
         text: "Селектор",
-        base: "/selektor-",
+        base: "/selektor/",
+
         collapsed: true,
         items: [
-          { text: "Подготовка к лекции", link: "prepare" },
-          { text: "Настройки", link: "nastroiki-vstreci" },
-          { text: "Настройки", link: "nastroiki-vstreci" },
-          { text: "Настройки", link: "nastroiki-vstreci" },
+          {
+            text: "Подготовка к селектору",
+            items: [
+              {
+                text: "WEB-клиент в браузере",
+                link: "podgotovka-k-selektoru-web/",
+              },
+              {
+                text: "Десктоп-клиент",
+                link: "podgotovka-k-selektoru-desktop/",
+              },
+            ],
+          },
+          {
+            text: "Возможности при проведении селектора",
+            items: [
+              {
+                text: "WEB-клиент в браузере",
+                link: "vozmoznosti-selektora-web/",
+              },
+              {
+                text: "Десктоп-клиент",
+                link: "vozmoznosti-selektora-desktop/",
+              },
+              {
+                text: "Основные-возможности",
+                link: "osnovnii-vozmozhnosti/",
+              },
+              {
+                text: "Права учатников селектора",
+                link: "prava-uchastnikov-selektora/",
+              },
+            ],
+          },
+          {
+            text: "Настройка оборудования",
+            link: "",
+          },
         ],
       },
       {
@@ -297,16 +334,30 @@ export default defineConfig({
             text: "Для Android",
             link: "/apps/android/",
           },
-          {
-            text: "Как поставить",
-            link: "/apps/ustanovka-prilozenii/",
-          },
+          // {
+          //   text: "Как поставить",
+          //   link: "/apps/ustanovka-prilozenii/",
+          // },
         ],
       },
       {
-        text: "Релизы",
+        text: "Новости и Релизы",
         collapsed: true,
         items: [
+          {
+            text: "Новости",
+            collapsed: true,
+            items: [
+              {
+                text: "Новый функционал за Сентябрь",
+                link: "/news/spisok-novogo-funkcionala-09-2024/",
+              },
+              {
+                text: "Новый функционал за Август",
+                link: "/news/spisok-novogo-funkcionala-08-2024/",
+              },
+            ],
+          },
           {
             text: "Релиз 21",
             collapsed: true,
@@ -403,6 +454,10 @@ export default defineConfig({
                 text: "Аналитика по платформе ВКУРСЕ",
                 link: "/vkurse-analitycs/",
               },
+              {
+                text: "Обзор возможностей платформы",
+                link: "/vozmojnosti-platformy/",
+              },
             ],
           },
         ],
@@ -417,10 +472,18 @@ export default defineConfig({
     config: (md) => {
       // Use lightbox plugin
       md.use(lightbox, {});
+      md.use(markdownItFootnote);
+      md.use(markdownItMark);
+      md.use(markdownItDeflist);
+      md.use(markdownItAbbr);
       md.use(imageFigures, {
         figcaption: "title",
         copyAttrs: "^class$",
       });
+    },
+    image: {
+      // image lazy loading is disabled by default
+      lazyLoading: true,
     },
   },
 });

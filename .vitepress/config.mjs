@@ -413,12 +413,16 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
-                text: "Релиз 20",
-                link: "/release/relizy-po-vkurse-versiia-20",
+                text: "Релиз 20.2",
+                link: "/release/relizy-po-vkurse-versiia-20-2",
               },
               {
                 text: "Релиз 20.1",
                 link: "/release/relizy-po-vkurse-versiia-20-1",
+              },
+              {
+                text: "Релиз 20",
+                link: "/release/relizy-po-vkurse-versiia-20",
               },
             ],
           },

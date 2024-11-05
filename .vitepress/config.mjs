@@ -413,6 +413,42 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
+                text: "Релиз 20.12",
+                link: "/release/relizy-po-vkurse-versiia-20-12",
+              },
+              {
+                text: "Релиз 20.11",
+                link: "/release/relizy-po-vkurse-versiia-20-11",
+              },
+              {
+                text: "Релиз 20.10",
+                link: "/release/relizy-po-vkurse-versiia-20-10",
+              },
+              {
+                text: "Релиз 20.9",
+                link: "/release/relizy-po-vkurse-versiia-20-9",
+              },
+              {
+                text: "Релиз 20.8",
+                link: "/release/relizy-po-vkurse-versiia-20-8",
+              },
+              {
+                text: "Релиз 20.7",
+                link: "/release/relizy-po-vkurse-versiia-20-7",
+              },
+              {
+                text: "Релиз 20.6",
+                link: "/release/relizy-po-vkurse-versiia-20-6",
+              },
+              {
+                text: "Релиз 20.5",
+                link: "/release/relizy-po-vkurse-versiia-20-5",
+              },
+              {
+                text: "Релиз 20.4",
+                link: "/release/relizy-po-vkurse-versiia-20-4",
+              },
+              {
                 text: "Релиз 20.2",
                 link: "/release/relizy-po-vkurse-versiia-20-2",
               },
